@@ -20,6 +20,18 @@
   <packaging>kjar</packaging>
   <name>Mortgages</name>
   <description>Loan approval process automation using Drools.</description>
+  <distributionManagement>
+    <repository>
+      <id>${env.RELEASES_MAVEN_REPO_ID}</id>
+      <url>${env.RELEASES_MAVEN_REPO_URL}</url>
+      <layout>default</layout>
+    </repository>
+    <snapshotRepository>
+      <id>${env.SNAPSHOTS_MAVEN_REPO_ID}</id>
+      <url>${env.SNAPSHOTS_MAVEN_REPO_URL}</url>
+      <layout>default</layout>
+    </snapshotRepository>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
