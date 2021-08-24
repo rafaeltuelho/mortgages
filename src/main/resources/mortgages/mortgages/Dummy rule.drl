@@ -23,5 +23,6 @@ when
 then
   //actions
   System.out.println("Demo for DTNA!");
+  System.out.println("change made by BC");
   System.out.println("Rule [" + kcontext.getRule().getName() + "] has been fired!");
 end
