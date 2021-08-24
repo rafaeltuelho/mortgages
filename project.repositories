@@ -3,6 +3,14 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>local</id>
+        <url>/home/jboss/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>mirror.default</id>
         <url>http://my-nexusrepo-sonatype-nexus-service-rhdm-dev-sandbox.apps.cluster-e006.e006.sandbox1059.opentlc.com/repository/maven-public/</url>
         <source>SETTINGS</source>
@@ -11,17 +19,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>nexus-releases</id>
-        <url>http://my-nexusrepo-sonatype-nexus-service-rhdm-dev-sandbox.apps.cluster-e006.e006.sandbox1059.opentlc.com/repository/maven-releases/</url>
+        <id>nexus-snapshots</id>
+        <url>http://my-nexusrepo-sonatype-nexus-service-rhdm-dev-sandbox.apps.cluster-e006.e006.sandbox1059.opentlc.com/repository/maven-snapshots/</url>
         <source>DISTRIBUTION_MANAGEMENT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>local</id>
-        <url>/home/jboss/.m2/repository</url>
-        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>
