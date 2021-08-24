@@ -22,5 +22,5 @@ when
   //conditions
 then
   //actions
-  System.out.println("Rule [" + kcontext.getRule().getName() + "] has been fired!!!");
+  System.out.println("Rule [" + kcontext.getRule().getName() + "] has been fired!");
 end
