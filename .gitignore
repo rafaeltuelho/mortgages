@@ -1,0 +1,6 @@
+**/.~lock*
+target/
+.vscode/
+.settings/
+.project
+.classpath
