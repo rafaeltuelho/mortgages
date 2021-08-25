@@ -1,7 +1,7 @@
 # Drools Mortgages Rules Demo Project
 
 This quickstart project provides a sample use case with different Rules definitions using a Mortgage Domain Model.
-
+You can import this project directly into Business Central (Workbench).
 ## Content
 
 The following rule assets are defined:
@@ -17,7 +17,7 @@ The following rule assets are defined:
 
 ## Testing
 
-After building the `kjar` artifact and deploying into a kie-server runtime you can test the project rules using the rest API:
+After building the `kjar` artifact and deploying into a kie-server runtime (see how to run KieServer on SpringBoot runtime [here](https://github.com/rafaeltuelho/springboot-kieserver-service)) you can test the project rules using the rest API:
 
 POST to 
    * JBoss based Kie-Server `/server/containers/instances/mortgages`
