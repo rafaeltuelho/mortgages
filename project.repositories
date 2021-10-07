@@ -3,17 +3,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>local</id>
-        <url>/home/jboss/.m2/repository</url>
-        <source>LOCAL</source>
+        <id>mirror.default</id>
+        <url>http://my-nexusrepo-sonatype-nexus-service-rhdm-bc-dev.apps.cluster-8sfhr.8sfhr.sandbox838.opentlc.com/repository/maven-public/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>mirror.default</id>
-        <url>http://my-nexusrepo-sonatype-nexus-service-rhdm-bc-dev.apps.cluster-8sfhr.8sfhr.sandbox838.opentlc.com/repository/maven-public/</url>
-        <source>SETTINGS</source>
+        <id>local</id>
+        <url>/home/jboss/.m2/repository</url>
+        <source>LOCAL</source>
       </metadata>
     </repository>
     <repository>
