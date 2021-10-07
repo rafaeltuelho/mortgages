@@ -17,6 +17,18 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
+  <!-- ENABLE THIS SECTION TO DEPLOY THE ARTIFACT TO YOUR MAVEN REPO -->
+  <distributionManagement>
+    <repository>
+      <id>${env.RELEASES_MAVEN_REPO_ID}</id>
+      <url>${env.RELEASES_MAVEN_REPO_URL}</url>
+    </repository>
+    <snapshotRepository>
+      <id>${env.SNAPSHOTS_MAVEN_REPO_ID}</id>
+      <url>${env.SNAPSHOTS_MAVEN_REPO_URL}</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <!-- -->  
   <dependencies>
     <dependency>
       <groupId>org.kie</groupId>
