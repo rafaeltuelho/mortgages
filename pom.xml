@@ -8,16 +8,6 @@
   <packaging>kjar</packaging>
   <name>Mortgages</name>
   <description>Loan approval process automation using Drools.</description>
-  <distributionManagement>
-    <repository>
-      <id>${env.RELEASES_MAVEN_REPO_ID}</id>
-      <url>${env.RELEASES_MAVEN_REPO_URL}</url>
-    </repository>
-    <snapshotRepository>
-      <id>${env.SNAPSHOTS_MAVEN_REPO_ID}</id>
-      <url>${env.SNAPSHOTS_MAVEN_REPO_URL}</url>
-    </snapshotRepository>
-  </distributionManagement>
   <properties>
     <kie.version>7.52.0.Final-redhat-00008</kie.version>
     <ba-platform.version>7.11.0.redhat-00008</ba-platform.version>
