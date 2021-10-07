@@ -3,9 +3,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>mirror.default</id>
-        <url>http://my-nexusrepo-sonatype-nexus-service-rhdm-bc-dev.apps.cluster-8sfhr.8sfhr.sandbox838.opentlc.com/repository/maven-public/</url>
-        <source>SETTINGS</source>
+        <id>nexus-releases</id>
+        <url>http://my-nexusrepo-sonatype-nexus-service-rhdm-bc-dev.apps.cluster-8sfhr.8sfhr.sandbox838.opentlc.com            /repository/maven-releases/</url>
+        <source>DISTRIBUTION_MANAGEMENT</source>
       </metadata>
     </repository>
     <repository>
@@ -19,9 +19,9 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>${env.MAVEN_SERVER_ID}</id>
-        <url>${env.MAVEN_SERVER_URL}/repository/maven-releases/</url>
-        <source>DISTRIBUTION_MANAGEMENT</source>
+        <id>mirror.default</id>
+        <url>http://my-nexusrepo-sonatype-nexus-service-rhdm-bc-dev.apps.cluster-8sfhr.8sfhr.sandbox838.opentlc.com/repository/maven-public/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
   </repositories>
