@@ -4,27 +4,18 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>mortgages</groupId>
   <artifactId>mortgages</artifactId>
-  <version>2.3</version>
+  <version>1.0</version>
   <packaging>kjar</packaging>
   <name>Mortgages</name>
   <description>Loan approval process automation using Drools.</description>
-  <!-- 
-
-    When build ing from BC remember to provide the following env vars:
-      * RELEASES_MAVEN_REPO_ID/SNAPSHOTS_MAVEN_REPO_ID
-      * RELEASES_MAVEN_REPO_URL/SNAPSHOTS_MAVEN_REPO_URL
-    Also on BC you need to hit 'Build and Install' button in order to deploy the artifact into your external maven server
-
-    When running as part of a CICD Pipeline remember to provide MAVEN_SERVER_ID and MAVEN_SERVER_URL env vars.
-  -->
   <distributionManagement>
     <repository>
-      <id>${env.RELEASES_MAVEN_REPO_ID}</id>    <!-- ${env.MAVEN_SERVER_ID} -->
-      <url>${env.RELEASES_MAVEN_REPO_URL}</url> <!-- ${env.MAVEN_SERVER_URL}/repository/maven-releases/ -->
+      <id>${env.RELEASES_MAVEN_REPO_ID}</id>
+      <url>${env.RELEASES_MAVEN_REPO_URL}</url>
     </repository>
     <snapshotRepository>
-      <id>${env.SNAPSHOTS_MAVEN_REPO_ID}</id>    <!-- ${env.MAVEN_SERVER_ID} -->
-      <url>${env.SNAPSHOTS_MAVEN_REPO_URL}</url> <!-- ${env.MAVEN_SERVER_URL}/repository/maven-snapshots/ -->
+      <id>${env.SNAPSHOTS_MAVEN_REPO_ID}</id>
+      <url>${env.SNAPSHOTS_MAVEN_REPO_URL}</url>
     </snapshotRepository>
   </distributionManagement>
   <properties>
