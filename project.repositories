@@ -16,13 +16,5 @@
         <source>SETTINGS</source>
       </metadata>
     </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>nexus-releases</id>
-        <url>http://my-nexusrepo-sonatype-nexus-service-rhdm-bc-dev.apps.cluster-8sfhr.8sfhr.sandbox838.opentlc.com/repository/maven-releases/</url>
-        <source>DISTRIBUTION_MANAGEMENT</source>
-      </metadata>
-    </repository>
   </repositories>
 </project-repositories>
