@@ -20,12 +20,12 @@
   
   <distributionManagement>
     <repository>
-      <id>${env.RELEASES_MAVEN_REPO_ID}</id>
-      <url>${env.RELEASES_MAVEN_REPO_URL}</url>
+      <id>${env.MAVEN_SERVER_ID}</id>
+      <url>${env.MAVEN_SERVER_URL}/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
-      <id>${env.SNAPSHOTS_MAVEN_REPO_ID}</id>
-      <url>${env.SNAPSHOTS_MAVEN_REPO_URL}</url>
+      <id>${env.MAVEN_SERVER_ID}</id>
+      <url>${env.MAVEN_SERVER_URL}/repository/maven-snapshots/</url>
     </snapshotRepository>
   </distributionManagement>
 
