@@ -1,2 +1,14 @@
 package mortgages.mortgages;
 
+
+rule 'Demo rule'
+
+when
+  //conditions
+then
+  //actions
+  System.out.println("Demo for Honda NA");
+  System.out.println("change made by BC");
+  System.out.println("Rule [" + kcontext.getRule().getName() + "] has been fired!");
+end
+
